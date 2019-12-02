@@ -10,24 +10,25 @@
 
 <body>
   <nav>
-    <h1>Tic Tac Toe Board!</h1>
+    <h1><img src="https://steamcdn-a.akamaihd.net/steam/apps/360870/header.jpg?t=1453709526">
   </nav>
   <main>
+    <button id='button1' value="refresh" onclick="window.location.reload();">CLEAR</button>
     <table>
       <tr class="row">
-        <td id="0" onclick="play(0)"></td>
-        <td id="1" onclick="play(1)"></td>
-        <td id="2" onclick="play(2)"></td>
+        <td id="0" class="test" onclick="play(0)"></td>
+        <td id="1" class="test" onclick="play(1)"></td>
+        <td id="2" class="test" onclick="play(2)"></td>
       </tr>
       <tr class="row">
-        <td id="3" onclick="play(3)"></td>
-        <td id="4" onclick="play(4)"></td>
-        <td id="5" onclick="play(5)"></td>
+        <td id="3" class="test" onclick="play(3)"></td>
+        <td id="4" class="test" onclick="play(4)"></td>
+        <td id="5" class="test" onclick="play(5)"></td>
       </tr>
       <tr class="row">
-        <td id="6" onclick="play(6)"></td>
-        <td id="7" onclick="play(7)"></td>
-        <td id="8" onclick="play(8)"></td>
+        <td id="6" class="test" onclick="play(6)"></td>
+        <td id="7" class="test" onclick="play(7)"></td>
+        <td id="8" class="test" onclick="play(8)"></td>
       </tr>
     </table>
     <span>Player </span>
@@ -35,5 +36,5 @@
     <span>'s turn</span>
   </main>
 </body>
-
+<script src="./index.js"></script>
 </html>

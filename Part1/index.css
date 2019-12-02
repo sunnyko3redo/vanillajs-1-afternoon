@@ -6,7 +6,7 @@
 
   nav {
       height: 15vh;
-      background: #444;
+      background: rgb(24, 99, 24);
       color: #DDD;
   }
 
@@ -30,7 +30,43 @@
 .row td {
     height: 120px;
     width: 120px;
-    border: 1px solid #000;
+    border: 10px solid rgb(247, 3, 153);
     text-align: center;
     font-size: 2em;
+    box-shadow: 10px;
+}
+
+#button1 {
+    color: rgb(7, 6, 6);
+    height: 100px;
+    width: 120px;
+    margin-left: 200px;
+    margin-top: 80px;
+    background-color:rgb(247, 3, 153);
+    font-weight: 600;
+    border-radius: 80px;
+    font-size: 24px;
+    
+}
+
+.test {
+    background: rgb(147, 190, 147);
+    box-shadow: 5px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+img {
+    height: 100px;
+    width: 200px;
+    border: 5px rgb(247, 3, 153);
+}
+
+#button1:hover{
+    background: blue;
+
+}
+
+#button1:active{
+    background: green;
 }
